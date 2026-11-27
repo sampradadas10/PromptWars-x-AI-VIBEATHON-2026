@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Segoe UI', ui-sans-serif, system-ui, -apple-system, sans-serif;
+    background-color: #faf8f5;
+    color: #4a3525;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: 'Trebuchet MS', 'Segoe UI', ui-rounded, system-ui, sans-serif;
+    letter-spacing: -0.015em;
+  }
+}
+
+.storybook-paper {
+  background-color: #faf8f5;
+  background-image:
+    radial-gradient(at 15% 15%, rgba(232, 200, 120, 0.14) 0px, transparent 50%),
+    radial-gradient(at 85% 20%, rgba(165, 180, 154, 0.14) 0px, transparent 48%),
+    radial-gradient(at 50% 90%, rgba(199, 123, 90, 0.08) 0px, transparent 55%);
+}
+
+.storybook-card {
+  @apply bg-sandcard/90 border border-espresso/10 rounded-storybook shadow-storybook;
+}
+
+.tactile-btn {
+  @apply inline-flex items-center justify-center gap-2 font-semibold rounded-2xl transition-all duration-150 active:translate-y-0.5 disabled:opacity-50 disabled:cursor-not-allowed;
+}
+
+/* Custom subtle scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f2ece4;
+}
+::-webkit-scrollbar-thumb {
+  background: #c7b8a8;
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #7a583e;
+}
