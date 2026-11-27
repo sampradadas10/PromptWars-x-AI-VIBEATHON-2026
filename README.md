@@ -1,1 +1,3 @@
-An interactive "pygital" (physical+digital) learning companion for kids that turn everyday real world actions in playful quests. It is the real-world adventure app that gets kids off the couch— turning everyday objects, family conversations and good habits into gemified quests across Science, Geography, History, English, Bengali etc.
+An interactive "pygital" (physical+digital) learning companion for kids that turn everyday real world actions in playful quests. It is the real-world adventure app that gets kids off the couch— turning everyday objects, family conversations and good habits into gemified quests across Science, Geography, History, English etc.
+## Live Demo
+https://prompt-wars-x-ai-vibeathon-2026.vercel.app/
